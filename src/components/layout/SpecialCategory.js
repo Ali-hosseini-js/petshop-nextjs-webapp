@@ -19,7 +19,7 @@ function SpecialCategory() {
       </Link>
       <Link href="/category/dog/food">
         <Image
-          className="w-auto h-auto"
+          className="w-[290px] h-[415px]"
           alt="قرص و پودر های مولتیویتامین"
           src={baner2}
           width={290}
@@ -29,7 +29,7 @@ function SpecialCategory() {
 
       <Link href="/category/dog/food">
         <Image
-          className="w-auto h-auto"
+          className="w-[290px] h-[415px]"
           alt="غذای سگ نژاد جونیور"
           src={baner3}
           width={290}
@@ -39,7 +39,7 @@ function SpecialCategory() {
 
       <Link href="/category/dog/food">
         <Image
-          className="w-auto h-auto"
+          className="w-[290px] h-[415px]"
           alt="فروش انواع غذای خشک"
           src={baner4}
           width={290}
