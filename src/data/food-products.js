@@ -3,7 +3,7 @@ import mofeed from "@/public/image/mofeed-food.png";
 import nulo from "@/public/image/nulo-food.png";
 import science from "@/public/image/science-food.png";
 
-export const food = [
+export const foods = [
   {
     type: "غذای گربه",
     image: kitzy,

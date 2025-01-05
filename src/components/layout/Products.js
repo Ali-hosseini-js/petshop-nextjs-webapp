@@ -1,5 +1,6 @@
 import ProductsCard from "@/module/ProductsCard";
 import Link from "next/link";
+import { foods } from "@/data/food-products";
 
 function Products() {
   return (
@@ -13,8 +14,10 @@ function Products() {
           مشاهده همه
         </Link>
       </div>
-      <div className="py-8">
-        <ProductsCard />
+      <div className="flex justify-center gap-10 py-8">
+        {foods.map((item, index) => (
+          <ProductsCard key={index} data={item} />
+        ))}
       </div>
     </div>
   );
