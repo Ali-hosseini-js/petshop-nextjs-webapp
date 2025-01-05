@@ -10,11 +10,11 @@ function SpecialCategory() {
     <div className="flex flex-wrap items-center justify-center gap-3 pt-8 pb-16">
       <Link href="/category/dog/food">
         <Image
-          className="w-auto h-auto"
+          className="w-[290px] h-[415px]"
           alt="انواع کنسرو برای سگ"
           src={baner1}
-          width={400}
-          height={550}
+          width={290}
+          height={415}
         />
       </Link>
       <Link href="/category/dog/food">
