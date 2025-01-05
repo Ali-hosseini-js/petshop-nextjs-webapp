@@ -13,8 +13,8 @@ function SpecialCategory() {
           className="w-auto h-auto"
           alt="انواع کنسرو برای سگ"
           src={baner1}
-          width={290}
-          height={415}
+          width={400}
+          height={550}
         />
       </Link>
       <Link href="/category/dog/food">
