@@ -13,9 +13,9 @@ function Header() {
     <div className="flex justify-between items-center my-6">
       <Link className="flex gap-3 items-center" href="/">
         <Image alt="shapet" src={logo} width={58} height={58} />
-        <p className="text-main font-semibold text-2xl">شاپت</p>
+        <p className="text-main font-semibold text-2xl max-md:hidden">شاپت</p>
       </Link>
-      <div className="flex gap-3 rounded-full items-center bg-[#F2F2F2] w-full max-w-96 p-2">
+      <div className="flex gap-3 rounded-full items-center bg-[#F2F2F2] w-full max-w-96 p-2 max-sm:hidden">
         <input
           className="bg-inherit p-2 w-full"
           type="text"
@@ -26,14 +26,14 @@ function Header() {
           <Image alt="search" src={search} width={26} height={26} />
         </button>
       </div>
-      <div className="flex justify-center items-center gap-3">
+      <div className="flex justify-center items-center gap-3 max-lg:hidden">
         <Image alt="ضمانت اصالت کالا" src={tick} width={38} height={38} />
         <div>
           <p className="font-semibold text-[15px]">ضمانت اصالت کالا</p>
           <p className="font-normal text-sm text-black/25">٪۱۰۰ تضمین اصالت</p>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-3">
+      <div className="flex justify-center items-center gap-3 max-lg:hidden">
         <Image alt="ارسال رایگان" src={post} width={38} height={38} />
         <div>
           <p className="font-semibold text-[15px]">ارسال رایگان</p>

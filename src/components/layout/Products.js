@@ -14,7 +14,7 @@ function Products() {
           مشاهده همه
         </Link>
       </div>
-      <div className="flex justify-center gap-10 py-8">
+      <div className="flex flex-wrap justify-center gap-10 py-8">
         {foods.map((item, index) => (
           <ProductsCard key={index} data={item} />
         ))}

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function DogCareCategory() {
   return (
-    <div className="flex justify-between pb-16">
+    <div className="flex justify-between pb-16 max-lg:flex-col max-lg:gap-10 max-lg:items-center">
       <div className="w-[360px] h-[780px] bg-[#A7CCFD54] rounded-xl -rotate-3 border-2 border-dashed border-[#A3C9FD] mx-5">
         <div className="w-[360px] h-[780px] bg-[url('/image/lavazemBanner.png')] rotate-3">
           <Link href="category/dog/carring" className="w-full h-full">
@@ -19,7 +19,7 @@ function DogCareCategory() {
           </Link>
         </div>
       </div>
-      <div className=" grid grid-cols-3 gap-y-10 gap-x-4">
+      <div className=" grid grid-cols-3 gap-y-10 gap-x-4 max-md:grid-cols-2 max-sm:grid-cols-1">
         {products.map((item, index) => (
           <ProductsCard key={index} data={item} />
         ))}

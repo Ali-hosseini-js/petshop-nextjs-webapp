@@ -4,9 +4,9 @@ import Link from "next/link";
 
 function List() {
   return (
-    <div className="flex justify-between mx-auto my-10">
+    <div className="flex justify-between max-md:justify-center mx-auto my-10">
       <div>
-        <ul className="flex gap-8">
+        <ul className="flex gap-8 text-nowrap">
           <li className="flex gap-1 items-center text-[22px] hover:text-main cursor-pointer">
             خانه
             <IoIosArrowDown />
@@ -26,7 +26,7 @@ function List() {
           </li>
         </ul>
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 max-md:hidden">
         <FiPhoneCall className="w-[24px] h-[29px]" />
         <p className="font-semibold text-[22px]">شماره تماس:</p>
         <p className="font-semibold text-[22px] text-main"> ۰۹۱۷۱۲۳۴۵۶۷</p>
